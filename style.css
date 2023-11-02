@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black;
+}
+.header .logo{
+    margin-top: 22px;
+    margin-left: 70px;
+}
+.header .logo img{
+    width: 150px;
+    height: 45px;
+}
+.navbar{
+    display: flex;
+    width: 65%;
+}
+.left-nav{
+    width: 50%;
+}
+.left-nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.left-nav ul li{
+    margin-top: 60px;
+    list-style: none;
+}
+.left-nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    opacity: 0.7;
+}
+.left-nav ul li a:hover{
+    font-weight: bolder;
+    opacity: 1;
+    transition: 10ms;
+}
+.right-nav{
+    width: 50%;
+    margin-left: 50px;
+}
+.upper-right{
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.upper-right a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+.upper-right a:hover{
+    text-decoration: underline;
+    color: rgb(62, 62, 132);
+}
+.visit-button{
+    height: 40px;
+    background-color: black;
+    width: 150px;
+}
+.visit-button a{
+    margin: 10px 15px;
+    height: 500px;
+    color: white;
+    opacity: 1;
+    font-weight: medium;
+}
+.visit-button a:hover{
+    opacity: 1;
+    color: white;
+    text-decoration: underline;
+}
+.lower-right{
+    display: flex;
+}
+.lower-right .search input{
+    margin-top: 30px;
+    width: 300px;
+    height: 35px;
+    background-color: rgb(244, 233, 219);
+    border-radius: 20px;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+.lower-right .search i{
+    margin-left: -40px;
+}
+.lower-right .wish-cart{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+.lower-right .wish-cart div{
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background-color: black;
+}
+.lower-right .wish-cart div i{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+.gif img{
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+}
+.gif img:hover{
+    height: 105px;
+    width: 101%;
+    transition: 1000ms;
+}
